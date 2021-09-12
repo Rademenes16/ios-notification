@@ -1,0 +1,76 @@
+html, body{
+    padding:0;
+    margin:0;
+    font-family: -apple-system,BlinkMacSystemFont,SFUI,HelveticaNeue,Helvetica,Arial,sans-serif;
+    overflow: hidden;
+}
+.background{
+    z-index: 0;
+    background-image: url(assets/17450.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    backdrop-filter: blur(5px);
+    width:100vw;
+    height:100vh;
+}
+
+.base{
+  width:20vw;
+  height:20vh;
+
+  z-index: 1;
+  background: rgba(255,255,255,0.16);
+  color:white;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  backdrop-filter: blur(5px);
+  border-radius: 19px;
+  padding:1em;
+}
+.type{
+    z-index:2;
+   
+}
+img{
+    width:1.5vw;
+    height:3vh;
+    position: absolute;
+    top:1.9vh;
+}
+.type:before{
+    margin:auto;
+    /*content: url("assets/insta.png");*/
+   
+}
+.timemark{
+    float: right;
+    font-size:2vmin;
+}
+.appname{
+    color: rgb(189, 189, 189);
+    font-size:2vmin;
+    margin-left:2vw;
+}
+.appcat{
+font-weight: 600;
+}
+.content{
+    line-height: 100%;
+
+}
+.notifications{
+    position: absolute;
+    bottom:0;
+    margin: auto;
+        color: rgb(189, 189, 189);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-size-adjust: 100%;
+
+}
